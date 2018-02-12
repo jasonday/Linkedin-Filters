@@ -6,7 +6,7 @@ chrome.extension.sendMessage({}, function (response) {
 			console.log('LinkedIn filter & sort init');
 
 			var container = "<div class='linked-interest container ph20' role='toolbar'></div>",
-				loadMore = "<button id='li-load' class='button button-secondary-small'>Load 100+ profiles</button>",
+				loadMore = "<button id='li-load' class='button button-primary-small'>Load 100+ profiles</button>",
 				heading = "<h4 class='visually-hidden'>Filter & Sort</h4>",
 				spinner = "<div class='li-container'><div class='li-group'><div class='big-square'><div class='li-square .li-group li-first'></div><div class='li-square li-second'></div><div class='li-square li-third'></div><div class='li-square li-fourth'></div></div><div class='li-text'>loading</div></div></div>",
 				search = "<input type='text' class='li-search search' placeholder='Filter by keyword' aria-label='filter by keyword' disabled='true'/><button class='li-clear' disabled='true'><svg width='12' height='12' version='1.1' xmlns='http://www.w3.org/2000/svg'><title>Clear search</title><line x1='1' y1='11' x2='11' y2='1' stroke='black' stroke-width='2'/><line x1='1' y1='1' x2='11' y2='11' stroke='black' stroke-width='2'/></svg></button>",
