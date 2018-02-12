@@ -1,0 +1,48 @@
+{
+  "name": "LinkedIn Filter & Sort",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Filter & Sort LinkedIn's 'People you may know'",
+  "homepage_url": "http://extensionizr.com",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "default_locale": "en",
+  "background": {
+    "scripts": [
+      "src/bg/background.js"
+    ],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_icon": "icons/icon19.png",
+    "default_title": "browser action demo",
+    "default_popup": "src/browser_action/browser_action.html"
+  },
+  "permissions": [
+    "contentSettings"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.linkedin.com/mynetwork/*"
+      ],
+      "css": [
+        "src/inject/inject.css"
+      ]
+    },
+    {
+      "matches": [
+        "https://www.linkedin.com/mynetwork/*"
+      ],
+      "js": [
+        "js/jquery/jquery.min.js",
+        "js/list.min.js",
+        "js/jquery.initialize.min.js",
+        "src/inject/inject.js"
+      ]
+    }
+  ]
+}
