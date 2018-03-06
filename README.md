@@ -1,7 +1,7 @@
 # LinkedIn-Filter-and-Sort
 Bookmarklet for adding filtering &amp; sorting to LinkedIn's 'People you may know'
 
-<a title="LinkedIn Filter bookmarklet" href="javascript: var s = document.createElement('script'); s.setAttribute('src','https://raw.githubusercontent.com/jasonday/LinkedIn-Filter-and-Sort/master/bookmarklet/linkedinFilter.js'); document.getElementsByTagName('body')[0].appendChild(s); void(s);"> Linkedin Filter</a>
+<a class="bookmarklet" href="javascript:(function()%7Bjavascript%3A%20var%20s%20%3D%20document.createElement('script')%3B%20s.setAttribute('src'%2C'https%3A%2F%2Fraw.githubusercontent.com%2Fjasonday%2FLinkedIn-Filter-and-Sort%2Fmaster%2Fbookmarklet%2FlinkedinFilter.js')%3B%20document.getElementsByTagName('body')%5B0%5D.appendChild(s)%3B%20void(s)%7D)()">Linkedin Filter</a>
 
 ## Features
 * Load 100+ profiles by clicking a button
