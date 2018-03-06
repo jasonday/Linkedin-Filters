@@ -28,7 +28,7 @@ chrome.extension.sendMessage({}, function (response) {
 			// find connections in string, create element for filtering and trigger on each DOM insertion of profile card
 			$.initialize(".mn-pymk-list__card", function () {
 				var $this = $(this);
-				var $txt = $this.find('.mn-person-info__shared-insights-count').text();
+				var $txt = $this.find('.member-insights__count').text();
 				var num = $txt.replace(/[^0-9]/g, '');
 				var $count = $this.find("li-count");
 				if (!$count.length) {
