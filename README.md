@@ -1,7 +1,5 @@
 # LinkedIn-Filter-and-Sort
-Bookmarklet for adding filtering &amp; sorting to LinkedIn's 'People you may know'
-
-<a class="bookmarklet" href="javascript:(function()%7Bjavascript%3A%20var%20s%20%3D%20document.createElement('script')%3B%20s.setAttribute('src'%2C'https%3A%2F%2Fraw.githubusercontent.com%2Fjasonday%2FLinkedIn-Filter-and-Sort%2Fmaster%2Fbookmarklet%2FlinkedinFilter.js')%3B%20document.getElementsByTagName('body')%5B0%5D.appendChild(s)%3B%20void(s)%7D)()">Linkedin Filter</a>
+Chrome extension for adding filtering &amp; sorting to LinkedIn's 'People you may know'
 
 ## Features
 * Load 100+ profiles by clicking a button
@@ -9,8 +7,9 @@ Bookmarklet for adding filtering &amp; sorting to LinkedIn's 'People you may kno
 * Sort by number of shared connections
 
 ## Installation
-Drag link to your browser address bar and initiate it (click) when you are on Linkedin's 'People You May Know' page. 
+Download the extension. Then in Chrome, open up chrome://extensions/ in your browser and click “Developer mode” in the top right. Now click “Load unpacked extension…” and select the extension’s directory. You should now see LinkedIn Filter & Sort in the list.
+
+This code is in alpha and is subject to frequent changes and may need to be reloaded occasionally.
 
 ## Shortcomings
 * Due to linkedin's infinite scroll, "sort by connections" won't sort new results introduced by scrolling. Filtering by keyword will work when new results are injected when scrolling, however this is a bit buggy. Both examples are the reasoning behind forcing load of 100 profiles before filtering or sorting.
-
