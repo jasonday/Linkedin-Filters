@@ -18,7 +18,7 @@ javascript:(function(){function%20initLinkedIn(){(window.linkedinfilter=function
 Copy the code above. Add a new bookmark in your browser and paste this code into the url field.
 
 ### Chrome extension (beta)
-Download the extension. Then in Chrome, open up chrome://extensions/ in your browser and click “Developer mode” in the top right. Now click “Load unpacked extension…” and select the extension’s directory. You should now see LinkedIn Filter & Sort in the list.
+Download the extension. Then in Chrome, open up chrome://extensions/ in your browser and click “Developer mode” in the top right. Now click “Load unpacked extension…” and select the 'ext' directory. You should now see LinkedIn Filter & Sort in the extension list and it will load automatically when you visit 'People you may know'. 
 
 This code is in alpha and is subject to frequent changes and may need to be reloaded occasionally.
 
