@@ -1,6 +1,8 @@
 # LinkedIn-Filter-and-Sort
 Bookmarklet for adding filtering &amp; sorting to LinkedIn's 'People you may know'
 
+![Linkedin Filter controls](bookmarklet/linkedinfilter.jpg)
+
 ## Features
 * Load 100+ profiles by clicking a button
 * Filter results by keyword (name & job title)
