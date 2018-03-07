@@ -1,4 +1,4 @@
-# LinkedIn-Filter-and-Sort
+# LinkedIn-Ninja
 Bookmarklet for adding filtering &amp; sorting to LinkedIn's 'People you may know'
 
 ![Linkedin Filter controls](bookmarklet/linkedinfilter.jpg)
