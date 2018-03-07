@@ -26,5 +26,8 @@ Download the extension. Then in Chrome, open up chrome://extensions/ in your bro
 
 This code is in alpha and is subject to frequent changes and may need to be reloaded occasionally.
 
+## Use
+Load the features/enhancements by clicking on the bookmarklet when on the 'People you may know' page. 
+
 ## Shortcomings
 * Due to linkedin's infinite scroll, "sort by connections" won't sort new results introduced by scrolling. Filtering by keyword will work when new results are injected when scrolling, however this is a bit buggy. Both examples are the reasoning behind forcing load of 100 profiles before filtering or sorting.
