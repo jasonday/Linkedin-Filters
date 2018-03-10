@@ -1,6 +1,7 @@
 (function () {
 
 	// the minimum version of jQuery we want
+	
 	var v = '1.6.4';
 
 	// check prior inclusion and version
@@ -1935,7 +1936,7 @@
 
 			$('.mn-pymk-list').parent().attr('id', 'listjs-container');
 			var options = {
-				valueNames: ['li-connection-count', 'mn-person-info__name', 'mn-person-info__occupation'],
+				valueNames: ['li-connection-count', 'mn-person-info__name', 'mn-person-info__occupation', 'pymk-card__name', 'pymk-card__occupation'],
 				listClass: 'mn-pymk-list__cards'
 			};
 			var userList = new List('listjs-container', options);
